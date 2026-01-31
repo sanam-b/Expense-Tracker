@@ -1,5 +1,10 @@
 package com.expensetracker.expense_tracker.Model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class User {
     int user_id;
     String email;
